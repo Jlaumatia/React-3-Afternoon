@@ -1,0 +1,111 @@
+.App {
+  height: 100vh;
+}
+
+.nav-wrapper {
+  background-color: rgb(38, 158, 206);
+  display: flex;
+  padding: 0 20px;
+  
+}
+
+body {
+  background-color: #333;
+  color: white;
+  height: 100%;
+
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 25px;
+}
+
+h3 {
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 62.44px);
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  height: 400px;
+}
+
+.slide {
+  background-color: white;
+  color: #333;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.slideCount {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 0;
+  line-height: 28px;
+
+}
+
+span {
+  font-weight: normal;
+}
+
+.inlineH3 {
+  display: inline;
+}
+
+.slideContent {
+  width: 90%;
+
+}
+
+.name {
+  text-decoration: underline;
+  text-decoration-color:rgb(38, 158, 206);
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  position: relative;
+  width: 15%;
+  background-color: #333;
+  color: white;
+  margin-top: 3px;
+  
+}
+
+.buttonHouse {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.blueButton {
+  border: 1px solid rgb(38,158,206);
+  background-color: rgb(38,158,206);
+  border-radius: 50px;
+  margin-top: 10px;
+  padding-left: 5px; 
+  width: 100px; 
+  height: 35px;
+  margin-left: 10px;
+  
+  
+}
